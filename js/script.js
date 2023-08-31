@@ -1,4 +1,4 @@
-const form = document.querySelector('#form')
+const form = document.querySelector('#divForm')
 const emailInput = document.querySelector('#email')
 const buttonInput = document.querySelector('#button')
 

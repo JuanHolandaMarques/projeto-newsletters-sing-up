@@ -5,24 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/style.css">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+
   <title>Sing up Newsletters</title>
 </head>
 <body>
     <main>
       <div id="imageOnTop">
-        <img src="imagens/img-top.jpg" alt="imagem de decoração">
       </div>
 
-      <form action="post" id="form">
-        <div id="aboutTheProject">
-          <h1>
-            Se mantenha atualizado!
-          </h1>
+      <div id="aboutTheProject">
+        <h1>
+          Se mantenha atualizado!
+        </h1>
 
-          <p>
-            junte-se a mais de 60,000 pessoas que recebem atualizações mensais sobre:
-          </p>
+        <p>
+          junte-se a mais de 60,000 pessoas que recebem atualizações mensais sobre:
+        </p>
+      </div>
 
+      <form  id="divForm">
           <p class="topicos">
             <span> 
               <img src="sgvs/check_circle.svg" alt="simbolo de checado azul">
@@ -46,16 +50,17 @@
 
             E muito mais!
           </p>
-        </div>
+        
+        <div id="divEmail">
+          <div id="divInputEmail">
+            <label for="email">informe o seu email!</label>
+            <input type="email" id="email" placeholder="Exemplo@gmail.com" autocomplete="on">
+          </div>
 
-        <label for="email">informe o seu email!</label>
-        <input type="email" id="email" placeholder="Exemplo@gmail.com" autocomplete="on">
-
-        <button type="submit" id="button"> Inscreva-se mensalmente </button>
+          <button type="submit" id="button"> Inscreva-se mensalmente </button>
+        </div>  
       </form>
-
     </main>
-
   <script src="js/script.js"></script>
 </body>
 </html>

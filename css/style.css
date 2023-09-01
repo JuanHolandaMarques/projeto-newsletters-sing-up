@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-
-
 *{
   margin: 0;
   padding:0;
@@ -9,16 +7,13 @@
   box-sizing:border-box;
 }
 
-main{
+body{
   display: flex;
   flex-direction:column;
   align-items: center;
   gap: 32px;
 
   font-family: 'Roboto', sans-serif;
-
-  width: 100vw;
-  height: 100vh;
 }
 
 #imageOnTop{
@@ -28,7 +23,8 @@ main{
   background-size: cover;
 
   width: 100vw;
-  height: 30vh;
+  height: 40vh;
+  
 }
 
 form{

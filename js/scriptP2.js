@@ -1,5 +1,7 @@
 const inputText = document.getElementById('Email')
 const button = document.querySelector('button')
 
-inputText.value = ('Exemplo@gmail')
+const userEmail = localStorage.getItem("emailData")
 
+
+inputText.value = userEmail

@@ -60,12 +60,14 @@ button {
   background-color: #04588C;
   color: white;
 
-  cursor: pointer;
-
   width: 100%;
 
   margin:30px;
   padding: 15px;
+}
+a{
+  text-decoration: none;
+  color: white;
 }
 
 @media (min-width: 375px) {
